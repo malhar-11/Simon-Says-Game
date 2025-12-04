@@ -27,26 +27,11 @@ This project is an electronic implementation of the popular "Simon Says" game. T
 * 1x Piezo Buzzer
 * Jumper Wires & Breadboard
 
-## 🔌 Pin Configuration
-
-| Component | Arduino Pin | Description |
-| :--- | :--- | :--- |
-| **Start Button** | 12 | Initiates game / Resets |
-| **Buzzer** | 10 | Audio output |
-| **Button 1** | 2 | Input 1 |
-| **LED 1** | 3 | Output 1 |
-| **Button 2** | 4 | Input 2 |
-| **LED 2** | 5 | Output 2 |
-| **Button 3** | 6 | Input 3 |
-| **LED 3** | 7 | Output 3 |
-| **Button 4** | 8 | Input 4 |
-| **LED 4** | 9 | Output 4 |
-| **LCD SDA** | A4 | I2C Data |
-| **LCD SCL** | A5 | I2C Clock |
-
 ## 🔌 Circuit & Wiring
 
-Since this project uses specific pins for the "Game" vs "Start" logic, please follow the wiring map below carefully.
+Please follow the wiring diagram and pin mapping below to connect all components.
+
+![Arduino Simon Says Circuit Diagram](Circuit_diagram.png)
 
 ### Pin Mapping Table
 
