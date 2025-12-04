@@ -44,6 +44,31 @@ This project is an electronic implementation of the popular "Simon Says" game. T
 | **LCD SDA** | A4 | I2C Data |
 | **LCD SCL** | A5 | I2C Clock |
 
+## 🔌 Circuit & Wiring
+
+Since this project uses specific pins for the "Game" vs "Start" logic, please follow the wiring map below carefully.
+
+### Pin Mapping Table
+
+| Component | Pin Type | Arduino Pin | Connection Details |
+| :--- | :--- | :--- | :--- |
+| **I2C LCD** | VCC | 5V | Power |
+| **I2C LCD** | GND | GND | Ground |
+| **I2C LCD** | SDA | A4 | Data Line (I2C) |
+| **I2C LCD** | SCL | A5 | Clock Line (I2C) |
+| **Start Button** | Digital | 12 | Button Leg A (Leg B to GND) |
+| **Buzzer** | PWM/Digital| 10 | Positive Leg (Negative to GND) |
+| **Button 1** | Digital | 2 | Button Leg A (Leg B to GND) |
+| **LED 1** | Digital | 3 | Anode (+) via 220Ω Resistor |
+| **Button 2** | Digital | 4 | Button Leg A (Leg B to GND) |
+| **LED 2** | Digital | 5 | Anode (+) via 220Ω Resistor |
+| **Button 3** | Digital | 6 | Button Leg A (Leg B to GND) |
+| **LED 3** | Digital | 7 | Anode (+) via 220Ω Resistor |
+| **Button 4** | Digital | 8 | Button Leg A (Leg B to GND) |
+| **LED 4** | Digital | 9 | Anode (+) via 220Ω Resistor |
+
+**Note on Buttons:** The code uses `INPUT_PULLUP`, so you do **not** need external pull-up resistors. Simply connect one leg of the button to the defined pin and the other leg to GND.
+
 ## 🕹️ How to Play
 
 1.  **Power On:** Connect the Arduino to power. The LCD will prompt "PRESS START".
