@@ -1,10 +1,12 @@
 # Arduino Simon Says Game 🎮
 A classic memory game implemented using an Arduino Uno, featuring an I2C LCD display, custom difficulty levels, and audio feedback.
 
-**[View Demo on LinkedIn](https://www.linkedin.com/posts/malhar-salunkhe_mini-project-simon-says-game-combined-ugcPost-7343214441007607808-8K5Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFJHFE4Brztz-3eARJygA53XmpjYMaQKBHw)**
+**[View Demo on LinkedIn](https://www.linkedin.com/posts/malhar-salunkhe_mini-project-simon-says-game-combined-ugcPost-7343214441007607808-8K5Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFJHFE4Brztz-3eARJygA53XmpjYMaQKBHw)** | **[Try Online Simulation](https://wokwi.com/projects/434065344324880385)** 🎯
 
 ## 📖 Overview
 This project is an electronic implementation of the popular "Simon Says" game. The system generates a sequence of tones and lights that the player must repeat. As the game progresses, the sequences become longer and faster. This version includes a visual interface (LCD) to select difficulty levels and track scores.
+
+> **🎮 Want to try it first?** Check out the [**online simulation on Wokwi**](https://wokwi.com/projects/434065344324880385) - no hardware required!
 
 ## ✨ Features
 * **4 Difficulty Levels:** Easy, Medium, Hard, and Insane.
